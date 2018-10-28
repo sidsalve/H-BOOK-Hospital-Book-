@@ -1,0 +1,36 @@
+--
+-- MySQL 5.5.8
+-- Sun, 04 Dec 2016 10:07:49 +0000
+--
+
+CREATE TABLE `reg` (
+   `h_name` varchar(50),
+   `address` varchar(70),
+   `state` varchar(20),
+   `dist` varchar(20),
+   `taluka` varchar(20),
+   `contactno` varchar(12),
+   `register_no` varchar(100),
+   `facility` varchar(200),
+   `docname` varchar(50),
+   `degree` varchar(20),
+   `specialization` varchar(30),
+   `regd` varchar(15),
+   `mob_no` varchar(12) CHARSET ascii,
+   `emailid` varchar(30),
+   `nightser` varchar(10),
+   `password` varchar(20),
+   `cpassword` varchar(20),
+   KEY `h_name` (`h_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `reg` (`h_name`, `address`, `state`, `dist`, `taluka`, `contactno`, `register_no`, `facility`, `docname`, `degree`, `specialization`, `regd`, `mob_no`, `emailid`, `nightser`, `password`, `cpassword`) VALUES 
+('NEHE CHILDREN HOSPITAL AND CRITICAL CARE CENTER RA', 'rahuri bk', 'Maharashtra', 'Ahmednagar', 'Rahuri', '2426', 'Morning 10.00 to 2.00 Evening 5 to 8,SUNDAY OFF', 'NICU,PICU,SPRCIAL ROOM,SEMO-SPECIAL ROOM,GENERAL WARD,VENTILATOR,PHOTOTHERAPY,X-RAY,VACCINATION CENTER,LABORATORY,MEDICAL', 'Dr.Rajendra A Nehe,D', 'B.A.M.S,DCH', 'Peadiatric', '2003', '2147483647', 'rajendranehe@gmail.com', 'Yes', 'sid', 'sid'),
+('JADHAV HOSPITAL,RAHURI', 'rahuri', 'Maharashtra', 'Ahmednagar', 'Rahuri', '2426', 'Morning 10.00 to 2.00 Evening 5 to 8,SUNDAY OFF', 'LAPROSCOPY,LABORATRY,DELEVARY ROOM,IMERGENCY WARD,MEDICAL', 'Dr.Sonali A Jadhav', 'B.A.M.S', 'Gynacologist', '210', '2147483647', 'sonalijadhav@gmail.com', 'Yes', 'sid', 'sid'),
+('SHRIKRISHNA ACCIDENT HOSPITAL,RAHURI', 'rahuri', 'Maharashtra', 'Ahmednagar', 'Rahuri', '2426', 'Morning 10.00 to 2.00 Evening 5 to 8,SUNDAY OFF', 'FRACTURE,EMERGENCY WARD,PHYSIOTHERAPY,X-RAY,PATHOLOGY LAB', 'Dr.Pratap Girgune,Dr', 'M.B.B.S,M.S(Ortho)', 'Orthopedics', '90561', '2147483647', 'pratapgirgune@gmail.com', 'Yes', 'sid', 'sid'),
+('MHASKE CHILDREN HOSPITAL,RAHURI', 'rahuri', 'Maharashtra', 'Ahmednagar', 'Rahuri', '2426', 'Morning 10.00 to 2.00 Evening 5 to 8,SUNDAY OFF', 'SPECIAL ROOM,GENERAL WARD,LABORATORY,MEDICAL', 'Dr.Sandeep B Mhaske', 'M.B.B.S,D.C.H', 'Peadiatric', '2008', '2147483647', 'sandeepmhaske@gmail.com', 'Yes', 'sid', 'sid'),
+('AROGYAM AYURVED AND PANCHAKARMA HOSPITAL,RAHURI', 'rahuri', 'Maharashtra', 'Ahmednagar', 'Rahuri', '2426', 'Morning 10.00 to 2.00 Evening 5 to 8,SUNDAY OFF', 'ALL PANCHAKARMA AND AYURVEDIK FACILITIIES', 'Dr.Sagar Kad', 'B.A.M.S,P.G.D', 'Ayurvedic', '66550', '2147483647', 'sagarkad@gmail.com', 'No', 'sid', 'sid'),
+('DR.DHAVDE CLINIC AND DIABETIS CARE CENTER,RAHURI', 'rahuri', 'Maharashtra', 'Ahmednagar', 'Rahuri', '2426', 'Morning 10.00 to 2.00 Evening 5 to 8,SUNDAY OFF', 'ICU,DIABETIS CAMPUS,RA 50 BLOOD ANALYZER,URIN ANALYZER,DIGITAL CARDIOGRAM,VPT,SENSITOMETER', 'Dr.Sharad Dhavde', 'M.B.B.S,MD(Medicine)', 'Heart', '63625', '2147483647', 'sharaddhavde@gmail.com', 'No', 'sid', 'sid'),
+('DR.DHUMAL TEETH HOSPITAL,RAHURI', 'rahuri', 'Maharashtra', 'Ahmednagar', 'Rahuri', '02426-232225', 'Morning 10.00 to 2.00 Evening 5 to 8,SUNDAY OFF', 'ROOT CANAL TREATMENT X-RAY,REMOVING TEETH,BLEACHING', 'Dr.Rupali K Dhumal', 'B.D.S,M.U.H.S', 'Dentist', '16583', '7030518425', 'rupalidhumal@gmail.com', 'No', 'sid', 'sid'),
+('DR.DHUMAL TEETH HOSPITAL,RAHURI', 'rahuri', 'Maharashtra', 'Ahmednagar', 'Rahuri', '02426-232225', 'Morning 10.00 to 2.00 Evening 5 to 8,SUNDAY OFF', 'ROOT CANAL TREATMENT X-RAY,REMOVING TEETH,BLEACHING', 'Dr.Rupali K Dhumal', 'B.D.S,M.U.H.S', 'Dentist', '16583', '7030518425', 'rupalidhuml@gmail.com', 'No', 'sid', 'sid'),
+('VAIDYA ACCIDENT HOSPITAL,RAHURI', 'RAHURI', 'Maharashtra', 'Ahmednagar', 'Rahuri', '47859652', 'Morning 10.00 to 2.00 Evening 5 to 8,SUNDAY OFF', 'ICU,FRACTURE ,IMERGENCY WARD', 'DR.Subhashchandra Vaidya', 'M.B.B.S,ORTHO', 'Orthopedics', '8759Q4', '5897542155', 'subhashvaidya@gmail.com', 'Yes', 'sid', 'sid');

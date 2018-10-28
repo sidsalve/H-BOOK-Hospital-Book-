@@ -1,0 +1,19 @@
+--
+-- MySQL 5.5.8
+-- Fri, 17 Feb 2017 05:19:15 +0000
+--
+
+CREATE TABLE `ambulence` (
+   `ambulenceId` int(11) not null auto_increment,
+   `taluka` varchar(50),
+   `type` varchar(50),
+   `attachhosp` varchar(75),
+   `contact` varchar(12),
+   `oname` varchar(50),
+   `onumber` varchar(12),
+   `pass` varchar(50),
+   `cpass` varchar(50),
+   PRIMARY KEY (`ambulenceId`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
+
+-- [Table `abbulence` is empty]

@@ -1,0 +1,14 @@
+--
+-- MySQL 5.5.8
+-- Fri, 17 Feb 2017 03:15:52 +0000
+--
+
+CREATE TABLE `admin` (
+   `adminid` int(11) not null auto_increment,
+   `uname` varchar(50),
+   `password` varchar(50),
+   PRIMARY KEY (`adminid`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=2;
+
+INSERT INTO `admin` (`adminid`, `uname`, `password`) VALUES 
+('1', 'sid@salve', 'sid1997');

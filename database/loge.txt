@@ -1,0 +1,20 @@
+--
+-- MySQL 5.5.8
+-- Sun, 04 Dec 2016 10:06:18 +0000
+--
+
+CREATE TABLE `loge` (
+   `name` varchar(30),
+   `password` varchar(20)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `loge` (`name`, `password`) VALUES 
+('rajendranehe@gmail.com', 'sid'),
+('sonalijadhav@gmail.com', 'sid'),
+('pratapgirgune@gmail.com', 'sid'),
+('sandeepmhaske@gmail.com', 'sid'),
+('sagarkad@gmail.com', 'sid'),
+('sharaddhavde@gmail.com', 'sid'),
+('rupalidhumal@gmail.com', 'sid'),
+('rupalidhuml@gmail.com', 'sid'),
+('subhashvaidya@gmail.com', 'sid');
